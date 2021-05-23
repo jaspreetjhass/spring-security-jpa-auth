@@ -1,0 +1,4 @@
+INSERT INTO auth.users (username, password, enabled,authority)
+  values ('admin',
+    '$2a$10$IuAwkg2HUi.NIURRqO7HJ.dEXHKFylMu3YNWgsM.cC8R0KjoxEHqi',
+    1,'ROLE_user');

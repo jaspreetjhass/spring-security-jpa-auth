@@ -1,0 +1,14 @@
+jpa:
+  auth:
+    datasource:
+      driver-class-name: com.mysql.jdbc.Driver 
+      url: jdbc:mysql://localhost:3306/auth
+      user-name: root
+      password: root
+      
+spring.jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      format-sql: true
